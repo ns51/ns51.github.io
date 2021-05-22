@@ -24,7 +24,7 @@ section{
     background-position:right ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .banner h3{
@@ -466,8 +466,23 @@ img{
     section{
         padding: 100px 10px;
     }
+
+    .about{
+        padding-left: 30px;
+       
+
+    }
+    .about ul li{
+        font-size: 15px;  
+        text-align: left;
+       
+        
+    }
+
     .services p{
         padding: 20px;
+        text-align: justify;
+        font-size: 15px;
     }
     #prices td{
         border: 1px solid #ddd;
