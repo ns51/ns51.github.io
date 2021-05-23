@@ -24,14 +24,17 @@ section{
     background-position:right ;
     display: flex;
     justify-content: space-between;
+
     
 }
+
 
 .banner h3{
     font-size: 1.5em;
     color: #04c2c9;
     font-weight: 285;
     text-align: left; 
+    padding-top: 60px;
 }
 .banner h2{
     padding-top: 30px;
