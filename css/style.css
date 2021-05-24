@@ -35,42 +35,23 @@ section{
     font-weight: 285;
     text-align: left; 
     padding-top: 60px;
-}
-.banner h2{
-    padding-top: 30px;
-    color: #04c2c9;
-    text-align: left;
-    font-weight: 450;
-    color: red;
-}
-
-#telbutton{
-    display: inline-block;
-    background-color: #2196f3;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 2px;
-    border: solid 2px #c0c0c0;
-    padding: 5px;
-    text-align:center;
-    margin-top: 100px;
-    position: relative;
-    color: red;
+    padding-bottom: 60px;
 }
 
 
 .btn{
     position: relative;
-    background: #2196f3;
+    background: #04c2c9;
     display: inline-block;
-    color: #fff;
-    margin-top: 20px;
-    padding: 10px 30px;
-    font-size: 18px;
+    color: #000;
+    margin-top: 40px;
+    padding: 5px 10px;
+    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 300px;
+    border-radius: 2px;
+    border: solid 2px #c0c0c0;
 }
 .btn:hover{
     background-color: #00559b;
@@ -433,11 +414,7 @@ img{
     .banner h3{
         font-size: 1em;
     }
-    .btn{
-        margin-top: 10px;
-        padding: 10px 20px;
-        font-size: 16px;
-    }
+    
     .heading h2{
         font-size: 24px;
         
@@ -483,10 +460,6 @@ img{
     .banner h3{
         font-weight: 310;
         padding-top: 60px;
-    }
-   
-    #telbutton{
-        justify-content: center;
     }
     section{
         padding: 100px 10px;
