@@ -19,7 +19,7 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;
-    background-image: url(../img/darkBg.jpg);
+    background-image: url(../img/scenery.jpg);
     background-size: cover;
     background-position:right ;
     display: flex;
@@ -53,9 +53,7 @@ section{
     border-radius: 2px;
     border: solid 2px #c0c0c0;
 }
-.btn:hover{
-    background-color: #00559b;
-}
+
 header{
     position: fixed;
     top: 0;
@@ -154,16 +152,18 @@ img{
 .services p{
     color: #545454;
 }
+
 .heading.white{
     color:#545454;
-
 }
+
 .services .content{
     display: inline;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .services .content .servicesBx{
     padding: 40px 20px;
     background-color: #222;
@@ -172,12 +172,9 @@ img{
     border-radius: 7px;
 }
 
-
 #prices{
     border-collapse: collapse;
     width:100%
-    
-
 }
 #prices td{
     border: 1px solid #ddd;
@@ -207,8 +204,8 @@ img{
 }
 
 .work .content .workBx:hover{
-    background-color:#c0c0c0;
-    
+    background-color:#c0c0c0; 
+    cursor: pointer;
 }
     
 .work .content .workBx img{
@@ -299,7 +296,6 @@ img{
     border-radius: 2px;
     border: solid 2px #c0c0c0;
     padding: 5px;
-
 }
 .contactInfo{
     min-width: 40%;
@@ -332,7 +328,6 @@ img{
     color: #fff;
     flex-direction: column;
     font-weight: 300;
-   
 }
 .contactInfoBx .box .text h3{
     font-weight: 500;
