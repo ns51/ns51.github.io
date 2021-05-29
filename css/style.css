@@ -38,6 +38,27 @@ section{
     padding-bottom: 20px;
 }
 
+#bannerphone{
+    border-radius: 20px;
+    border: solid 2px #222;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #c90404;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9a9da0;
+    font-size: 100;
+    position: sticky;
+    top: 20;
+   
+   
+   
+}
+
 
 .btn{
     position: relative;
@@ -455,6 +476,11 @@ img{
     .banner h3{
         font-weight: 310;
         padding-top: 60px;
+    }
+    #bannerphone{
+        border-radius: 20px;
+        width: 60px;
+        height: 60px;  
     }
     section{
         padding: 100px 10px;
